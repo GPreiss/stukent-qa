@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Use the title from a page's frontmatter if it has one -->
+  <title>Stukent Q+A - Gabriela Preiss</title>
+  <link href="stylesheets/application-2fec2fc8.css" rel="stylesheet" />
+  <script src="javascripts/application-93de88c9.js"></script>
+  <link href="images/favicon-a2df804d.png" rel="icon" type="image/png" />
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+</head>
+<body>
+  <div class="container">
+  <div id="home">
+    <div class="home-content">
+      <img src="images/favicon-a2df804d.png" width="200" alt="Favicon" />
+      <div class="row card card1 one" style="background-image: url('https://images.unsplash.com/photo-1466133633688-187f0b492390?auto=format&fit=crop&w=1489&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>1. While not required for the position, would you be willing to relocate to the Idaho Falls / Rexburg Idaho area?</h4>
+          <p>Honestly, Idaho is not my first choice when I think of resettling. When I google Idaho, however, I see some great national parks and some great potatoes, and I do love national parks, as well as potatoes... So that's a selling point for me. I see myself moving if I have an opportunity to grow as a developer and grow within the company. My career is my priority, so I'm always open to opportunities where I can take that next step up. </p>
+        </div>
+      </div>
+
+      <div class="row card card2 two" style="background-image: url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?auto=format&fit=crop&w=1298&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>2. What language is the following code in and what does it do?</h4>
+          <p style="margin: 40px" class="text-left">def get_it(*nums)<br>  num = nums.first<br>  nums.each do |n|<br>  num = n if n > num<br>  end<br> num<br> end</p>
+          <p>Cool! This is in Ruby (the cleanest and prettiest language- slight bias here).<br>From what I understand, the goal of this method is to get the highest value from an array. Nums is the array. Num is the first element of that array. Then the each loop goes through each element of the array, searching for the highest value. The first element it sees is initally the highest(num), then compares each element after (n), to see if it's higher than the first, and if it is, that's the return value.</p>
+        </div>
+      </div>
+
+      <div class="row card card2 three" style="background-image: url('https://images.unsplash.com/photo-1491186751821-59a0a1bd73f1?auto=format&fit=crop&w=750&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>3. Is there a more efficient way to write the above code? What are some possible problems with this code? Please provide an example of how you would write this code and a short description.</h4>
+          <p>The issues with this code, from what I can tell, is it's repetitive and verbose. It's not very easy to read, because there's a lot of unnecessary fluff.<br>There are a few ways to simplify it that are easier to read and share. Personally, taking advantage of built in Ruby methods, rather than reinventing the wheel, and writing out a method from scratch.</p>
+          <p>nums.max</p>
+          <p><strong>or</strong></p>
+          <p>def get_it(*nums)<br>
+            nums.max<br>
+          end</p>
+          <p><strong>or</strong></p>
+          <p>nums.max_by{|number| number} => highest#</p>
+        </div>
+      </div>
+
+      <div class="row card card4 four" style="background-image: url('https://images.unsplash.com/photo-1500970069766-9523adb357d9?auto=format&fit=crop&w=755&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>4. What is your greatest strength as a developer?</h4>
+          <p>My greatest strengths are definitely when it comes to <strong>detail</strong> and <strong>communication</strong>. Both of these are intrinsic in my personality. As a developer you need to have a strong attention to detail; take the time to review and edit your work. As not just a coder, but a writer, I'm always editing and reviewing, from files to text messages. Communication comes into play, because any experienced developer knows everything goes up in flames really quickly if there's not strong communication with a team, whether between developers or between client and developer. Taking the time to be consistent with communication is key too. You can read some of my team-communication strategies I used in a recent project with strict deadlines <a href="https://medium.com/le-wagon/designing-implementing-and-shipping-to-production-a-rails-app-in-8-days-2e0490d673da">here</a>.</p>
+        </div>
+      </div>
+
+      <div class="row card card5 five" style="background-image: url('https://images.unsplash.com/photo-1493679349286-c570804c71ec?auto=format&fit=crop&w=751&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>5. What is your greatest weakness as a developer?</h4>
+          <p>I love this question, because it gives me a chance to really evaluate where I'm at, and where I want to be. I've worked with some great developers who grew rapidly and were successful because they were risk-takers and weren't afraid of making mistakes. This is where I have some growing to do. I'm sometimes <strong>overly-cautious</strong>, and this reflects when I'm coding as well. I love implementing new tools, features, and languages, but I have to take the time to break down the code I'm about to write and learn it well before implementing it. This can be a good thing too, not coding and taking risks like a maniac, but I believe there's a healthy balance to be met between risk and a calculated risk.</p>
+        </div>
+      </div>
+
+      <div class="row card card6 six" style="background-image: url('https://images.unsplash.com/photo-1503164730471-88e7dae9f343?auto=format&fit=crop&w=333&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>6. Why should we consider hiring you?</h4>
+          <p>I'm just one of many great developers out there, but this doesn't intimidate me. I love to work, I work hard, and I believe if you love what you do, and treat it as a craft with care, but also urgency and excitement, you can't possibly fail.<br>I know Stukent is a successful company with big ambitions of growth and an ambitious scaling project in the works. This is the kind of team and work ethic I'm drawn to- a team that wants to make an impact, is not docile, and knows how to get dirty and put in good, honest work. I've worked with a diverse, international team of developers, and I'm craving to work with a skilled team of coders and engineers who will challenge me, and we can contribute to each others work. Because Stukent is focused on changing education, this is a personal drive of mine, as someone who comes from a background in the public education system. To have these two worlds, coding and education, unite is a perfect balance of the kind of impact I want to make.</p>
+        </div>
+      </div>
+
+      <div class="row card card2 seven" style="background-image: url('https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?auto=format&fit=crop&w=752&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>7. What programming language are you most comfortable coding in?</h4>
+          <p>In the back-end, my experience and education is in Ruby, and of course Rails as the framework. I know it, I've worked with it. It's the prettiest and most readable language, in my opinion. You can see some of my projects and languages used <a href="https://gpreiss.github.io/preiss-portfolio/work.html">here</a>. Even with static pages, like this one, I'll build using Middleman, just so I can have the option of using Ruby if I so choose. <br> With front-end, of course, I do enjoy Javascript. There's an inifinte amount to learn, and it's a tricky language with it's long legacy, but honestly the possibilities are endless, and if I'm honest, I have a stronger affinity for front-end development, so being able to harmonize front-end design with programming logic is really satisfying for me.</p>
+        </div>
+      </div>
+
+      <div class="row card card2 eight" style="background-image: url('https://images.unsplash.com/uploads/141103282695035fa1380/95cdfeef?auto=format&fit=crop&w=974&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h4>8. What is your experience with working and developing on a Linux OS or a command line on macOS?</h4>
+          <p>All of my development/coding experience has been through the CL on macOS. I use it to initiate projects, repos, test my Ruby code, query Databases, using PostgreSQL or sqlite3, etc. </p>
+        </div>
+      </div>
+
+      <div class="row card card2 nine" style="background-image: url('https://images.unsplash.com/photo-1488485339565-566d63f7dbb7?auto=format&fit=crop&w=334&q=80');">
+        <div class='col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2'>
+          <h1>Thanks! </h1>
+          <p>Thank you for taking the time to hear me out, and reading through my responses! I'm very excited for the next steps and future of Stukent whatever they may be. Let's keep in contact, and I look forward to hearing your feedback.</p>
+          <div class="contact-links">
+            <a target="_blank" href="https://gpreiss.github.io/preiss-portfolio/"><i class="fa fa-laptop fa-5x"></i></a>
+            <a target="_blank" href="https://github.com/GPreiss"><i class="fa fa-github fa-5x"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/gpreiss/"><i class="fa fa-linkedin fa-5x"></i></a>
+            <a target="_blank" href="https://twitter.com/PreissGabi"><i class="fa fa-twitter fa-5x"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript">
+    window.sr = ScrollReveal({ duration: 2000 });
+    sr.reveal('.one', 50);
+    sr.reveal('.two', 50);
+    sr.reveal('.three', 50);
+    sr.reveal('.four', 50);
+    sr.reveal('.five', 50);
+    sr.reveal('.six', 50);
+    sr.reveal('.seven', 50);
+    sr.reveal('.eight', 50);
+    sr.reveal('.nine', 50);
+  </script>
+</body>
+</html>
